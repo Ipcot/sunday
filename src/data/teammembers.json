@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "name": "Игорь Демьяненко",
+    "profession": "Product Designer",
+    "links": {
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "2",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "name": "Ольга Репина",
+    "profession": "Frontend Developer",
+    "links": {
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "3",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "name": "Игорь Демьяненко",
+    "profession": "Product Designer",
+    "links": {
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  },
+  {
+    "id": "4",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "name": "Ольга Репина",
+    "profession": "Frontend Developer",
+    "links": {
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "facebook": "https://www.facebook.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  }
+]
