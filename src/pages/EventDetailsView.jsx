@@ -17,9 +17,9 @@ export const EventDetailsView = () => {
       {event && (
         <>
           <h1>{event.name}</h1>
-          {/* <img src={event.images[1].url} alt="event" width="250" hight="250" /> */}
-          {/* <p>{event.classifications[0].genre.name}</p> */}
-          {/* <p>{event.classifications[0].subGenre.name}</p> */}
+          <img src={event.images[1].url} alt="event" width="250" hight="250" />
+          <p>{event.classifications[0].genre.name}</p>
+          <p>{event.classifications[0].subGenre.name}</p>
         </>
       )}
     </>
