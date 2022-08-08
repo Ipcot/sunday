@@ -1,18 +1,19 @@
-import { Section } from './Section/Section';
-import { FeaturesList } from './FeaturesList/FeaturesList';
-import { TeamList } from './TeamList/TeamList';
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Layout from './Layout/Layout';
+import { Home } from './Home/Home';
+import { AddForm } from './AddForm/AddForm';
 
-import featuresData from '../data/features.json';
-import teammembers from '../data/teammembers.json';
 export const App = () => {
   return (
     <>
-      <Section>
-        <FeaturesList data={featuresData} />
-      </Section>
-      <Section title="Наша команда" teammembers={teammembers}>
-        <TeamList teammembers={teammembers}></TeamList>
-      </Section>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/add" element={<AddForm />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
     </>
   );
 };
