@@ -27,7 +27,7 @@ export const App = () => {
 
   return (
     <>
-      {loading && <p>Loading....</p>}
+      {loading && <p>Loading....Loading</p>}
       {userList.length > 0 ? (
         <>
           <UserList />
